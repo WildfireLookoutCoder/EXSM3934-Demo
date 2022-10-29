@@ -1,0 +1,52 @@
+{
+	"new": {
+		"prefix": ["new", "<!doctype html>"],
+		"body": [
+			"$BLOCK_COMMENT_START Aaron Champagne - $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR $BLOCK_COMMENT_END",
+			"<!doctype html>",
+			"",
+			"<html lang=\"en\">",
+			"<head>",
+			"    <meta charset=\"utf-8\">",
+			"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+			"    <title>${1:title}</title>",
+			"    <meta name=\"description\" content=\"${2:description}\">",
+			"    <meta name=\"author\" content=\"Aaron Champagne\">",
+			"    <meta property=\"og:title\" content=\"${1:title}\">",
+			"    <meta property=\"og:type\" content=\"website\">",
+			"    <meta property=\"og:url\" content=\"\">",
+			"    <meta property=\"og:description\" content=\"${2:description}\">",
+			"    <meta property=\"og:image\" content=\"\">",
+			"    <link rel=\"icon\" href=\"/favicon.ico\">",
+			"    <link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\">",
+			"    <link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">",
+			"    <link rel=\"stylesheet\" href=\"css/styles.css?v=1.0\">",
+			"",
+			"</head>",
+			"<body>",
+			"$BLOCK_COMMENT_START your content here... $BLOCK_COMMENT_END",
+			"    $0",
+			"    <script src=\"js/scripts.js\"></script>",
+			"</body>",
+			"</html>"
+			],
+		"description": "HTML template from https://www.sitepoint.com/a-basic-html5-template/"
+	  },
+	"demo-header": {
+		"prefix": ["demo-header"],
+		"body": [
+			"<header>",
+			"    <h1>$1</h1>",
+			"    <nav>",
+			"        <a href=\"\">Link 1</a>",
+			"        <a href=\"\">Link 2</a>",
+			"        <a href=\"\">Link 3</a>",
+			"        <a href=\"\">Link 4</a>",
+			"        <a href=\"\">Link 5</a>",
+			"        <a href=\"\">Link 6</a>",
+			"    </nav>",
+			"</header>"
+			],
+		"description": "HTML template from https://www.sitepoint.com/a-basic-html5-template/"
+	}
+}
