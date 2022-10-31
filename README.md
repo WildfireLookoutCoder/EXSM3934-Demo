@@ -1,23 +1,19 @@
 # EXSM3934-Demo
 
-## Table of Contents
+## Introduction to CSS3
 
-- [Introduction](#introduction)
-- [Features](#features)
+* Discuss the seperation of concerns. Demonstrate in-line css styles, the style tag, then show how to link a whole style sheet.
+* Syntax. Show a basic ruleset. Show the selector, the  curly braces to open and close the block, property/value pairs. Demonstrate comment syntax.
+* Link a stylesheet, test it in the browser. Demonstrate inspect element, and how to test css in the inspector.
+* Discuss what "cascading" means. Refer to slides for exact rules. Explain easier methods of keeping it straight. Add a reset script and demonstrate proper and improper order for linked sheets.
+* CSS resources. Don't forget to show CSS validators! 
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+## VS Code Snippets
 
-## Introduction
+* Inside this repository you will find a file called html.json which contains helpful snippets for students using Visual Studio Code.
+* Using snippets will increase your speed and is a handy tool for students.
 
-This repository contains all of the files that you will need for class on November 1, 2022. 
-
-## Features
-
-Inside this repository you will find:
-* A file called html.json which contains helpful snippets for students using Visual Studio Code.
-* The complete set of HTML and CSS live samples for each class.
-
-## Instructions for Installing Snippets
+### Instructions for Installing Snippets
 
 - In Visual Studio Code select File > Preferences > Configure User Snippets.
 - A drop-down menu will appear in code editor. Select "HMTL", or type it in the input.
@@ -26,4 +22,6 @@ Inside this repository you will find:
 - Don't forget to save!
 - Now when you enter any of the defined keywords then press TAB your code will be pasted into your editor and your cursor will be set to your defined position!
 - Use TAB to navigate to the next cursor position to fill out any template fields in your snippet.
+
+## Box Model
 
