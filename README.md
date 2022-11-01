@@ -25,3 +25,4 @@
 
 ## Box Model
 
+- We will be doing live demos of various CSS techniques. Be prepared for some typing!
