@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@800&family=Seymour+One&display=swap');
+
+:root {
+    --VG-orange: #A6620F;
+    --VG-gold: #BF9A2C;
+    --VG-light-blue: #025E73;
+    --VG-blue: #024059;
+    --VG-dark-blue: #023859;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h3 {
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+    font-size: 3em;
+    color: var( --VG-orange ); 
+}
+
+h3, a, a:hover, a:visited, a:link, a:active{
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+}
+body{
+    background-image: url(../images/self-portrait_1998.74.5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div{
+    color: var(--VG-gold);
+    font-family: 'Roboto Slab', serif;
+    font-size: .75em;
+    width: 30%;
+    margin-top: 5%;
+
+}
+div h1{
+    font-size: 2.5em;
+}
+
+#experiment{
+    width: 100%;
+}
+
+#decoration{
+    float: left;
+    width: 30px;
+}
+
+#experiment p{
+    float: left;
+    width: 30%;
+    font-size: .9em;
+    margin-top: 5%;
+    color: white;
+}
+
+#orange{
+    background-color: var(--VG-orange);
+}
+#gold{
+    background-color: var(--VG-gold);
+}
+#light-blue{
+    background-color: var(--VG-light-blue);
+}
+#blue{
+    background-color: var(--VG-blue);
+}
+#dark-blue{
+    background-color: var(--VG-dark-blue);
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
