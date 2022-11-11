@@ -1,0 +1,13 @@
+
+img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+body{
+    background-image: url("../images/poster.jpg");
+    color: white;   
+    background-size: contain;
+    background-repeat: no-repeat;
+}
