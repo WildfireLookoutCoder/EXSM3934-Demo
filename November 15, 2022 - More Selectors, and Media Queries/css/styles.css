@@ -1,7 +1,7 @@
 /* Make sure to put :hover after other styles */
-/* a:active {
-    color: green;
-}
+
+
+/* -------------------------------------------- */
 
 a:visited {
     color: cadetblue;
@@ -9,12 +9,21 @@ a:visited {
 
 a:hover {
     color: red;
-} */
+}
+
+a:active {
+    color: purple;
+}
+
 
 /* -------------------------------------------- */
 
-/* input:valid {
+input:valid {
     background-color: lightgreen;
+}
+
+input:invalid {
+    background-color: red;
 }
 
 input:focus {
@@ -22,26 +31,27 @@ input:focus {
 }
 
 input:required {
-    border: 2px solid red;
-} */
+    border: 2px solid yellow;
+}
 
 /* -------------------------------------------- */
 
-/* tr:first-child {
+/* tr:nth-child(even) {
     background-color: yellow;
 }
 
-tr:nth-child(2) {
+tr:nth-child(odd) {
     background-color: yellowgreen;
 }
 
-tr:nth-child(3) {
+thead td{
     background-color: green;
+    color: white;
 } */
 
 /* -------------------------------------------- */
-
-/* li:nth-child(1) {
+/* 
+li:nth-child(1) {
     background-color: red;
 }
 
@@ -67,33 +77,33 @@ li:nth-child(6) {
 
 /* we can use a formula as a value instead of an integer. */
 
-/* li:nth-child(1n) {
+li:nth-child(6n-5) {
     background-color: red;
 }
 
-li:nth-child(2n) {
+li:nth-child(6n-4) {
     background-color: orange;
 }
 
-li:nth-child(3n) {
+li:nth-child(6n-3) {
     background-color: yellow;
 }
 
-li:nth-child(4n) {
+li:nth-child(6n-2) {
     background-color: green;
 }
 
-li:nth-child(5n) {
+li:nth-child(6n-1) {
     background-color: blue;
 }
 
 li:nth-child(6n) {
     background-color: purple;
-} */
+}
 
 /* -------------------------------------------- */
 
-/* p a:nth-child(1) {
+p a:nth-child(1) {
     color: red;
 }
 
@@ -115,24 +125,24 @@ p a:nth-child(5) {
 
 p a:nth-child(6) {
     color: purple;
-} */
+}
 
 /* --------------------------------------- */
-/* 
+
 p::first-letter {
     font-size: 2em;
     font-weight: bold;
 }
 
 p::selection {
-    background-color: lightgreen;
-} */
+    background-color: rgb(238, 144, 197);
+}
 
 /* This content is not copy-pastable */
-/* p a::before {
+p a::before {
     content: "<3 ";
 }
 
 p a::after {
     content: " <3";
-} */
+}
