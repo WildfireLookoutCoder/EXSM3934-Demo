@@ -1,5 +1,5 @@
 /* Make sure to put :hover after other styles */
-a:active {
+/* a:active {
     color: green;
 }
 
@@ -9,11 +9,11 @@ a:visited {
 
 a:hover {
     color: red;
-}
+} */
 
 /* -------------------------------------------- */
 
-input:valid {
+/* input:valid {
     background-color: lightgreen;
 }
 
@@ -23,11 +23,11 @@ input:focus {
 
 input:required {
     border: 2px solid red;
-}
+} */
 
 /* -------------------------------------------- */
 
-tr:first-child {
+/* tr:first-child {
     background-color: yellow;
 }
 
@@ -37,7 +37,7 @@ tr:nth-child(2) {
 
 tr:nth-child(3) {
     background-color: green;
-}
+} */
 
 /* -------------------------------------------- */
 
@@ -67,7 +67,7 @@ li:nth-child(6) {
 
 /* we can use a formula as a value instead of an integer. */
 
-li:nth-child(1n) {
+/* li:nth-child(1n) {
     background-color: red;
 }
 
@@ -89,11 +89,11 @@ li:nth-child(5n) {
 
 li:nth-child(6n) {
     background-color: purple;
-}
+} */
 
 /* -------------------------------------------- */
 
-p a:nth-child(1) {
+/* p a:nth-child(1) {
     color: red;
 }
 
@@ -115,8 +115,10 @@ p a:nth-child(5) {
 
 p a:nth-child(6) {
     color: purple;
-}
+} */
 
+/* --------------------------------------- */
+/* 
 p::first-letter {
     font-size: 2em;
     font-weight: bold;
@@ -124,13 +126,13 @@ p::first-letter {
 
 p::selection {
     background-color: lightgreen;
-}
+} */
 
 /* This content is not copy-pastable */
-p a::before {
+/* p a::before {
     content: "<3 ";
 }
 
 p a::after {
     content: " <3";
-}
+} */
