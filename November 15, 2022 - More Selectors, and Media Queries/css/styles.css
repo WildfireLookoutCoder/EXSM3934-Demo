@@ -1,0 +1,136 @@
+/* Make sure to put :hover after other styles */
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: cadetblue;
+}
+
+a:hover {
+    color: red;
+}
+
+/* -------------------------------------------- */
+
+input:valid {
+    background-color: lightgreen;
+}
+
+input:focus {
+    background-color: greenyellow;
+}
+
+input:required {
+    border: 2px solid red;
+}
+
+/* -------------------------------------------- */
+
+tr:first-child {
+    background-color: yellow;
+}
+
+tr:nth-child(2) {
+    background-color: yellowgreen;
+}
+
+tr:nth-child(3) {
+    background-color: green;
+}
+
+/* -------------------------------------------- */
+
+/* li:nth-child(1) {
+    background-color: red;
+}
+
+li:nth-child(2) {
+    background-color: orange;
+}
+
+li:nth-child(3) {
+    background-color: yellow;
+}
+
+li:nth-child(4) {
+    background-color: green;
+}
+
+li:nth-child(5) {
+    background-color: blue;
+}
+
+li:nth-child(6) {
+    background-color: purple;
+} */
+
+/* we can use a formula as a value instead of an integer. */
+
+li:nth-child(1n) {
+    background-color: red;
+}
+
+li:nth-child(2n) {
+    background-color: orange;
+}
+
+li:nth-child(3n) {
+    background-color: yellow;
+}
+
+li:nth-child(4n) {
+    background-color: green;
+}
+
+li:nth-child(5n) {
+    background-color: blue;
+}
+
+li:nth-child(6n) {
+    background-color: purple;
+}
+
+/* -------------------------------------------- */
+
+p a:nth-child(1) {
+    color: red;
+}
+
+p a:nth-child(2) {
+    color: orange;
+}
+
+p a:nth-child(3) {
+    color: yellow;
+}
+
+p a:nth-child(4) {
+    color: green;
+}
+
+p a:nth-child(5) {
+    color: blue;
+}
+
+p a:nth-child(6) {
+    color: purple;
+}
+
+p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p::selection {
+    background-color: lightgreen;
+}
+
+/* This content is not copy-pastable */
+p a::before {
+    content: "<3 ";
+}
+
+p a::after {
+    content: " <3";
+}
