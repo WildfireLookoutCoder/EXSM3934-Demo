@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template: "logo logo navi"
+                "side bod bod"
+                "foot foot foot";
+    grid-template-columns: 1fr 1fr 800px;
+}
+
+#logo {
+    grid-area: logo;
+    background-color: yellow; 
+}
+
+#navigation {
+    background-color: yellowgreen;
+    grid-area: navi;
+}
+
+#sidebar {
+    background-color: darkolivegreen;
+    grid-area: side;
+}
+
+#main {
+    background-color: green;
+    grid-area: bod;
+}
+
+#footer {
+    background-color: darkgreen;
+    grid-area: foot;
+}

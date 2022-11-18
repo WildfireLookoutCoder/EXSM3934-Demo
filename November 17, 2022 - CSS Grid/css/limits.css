@@ -1,0 +1,54 @@
+body{
+    display: grid;
+    grid-template:  "a . . ."
+                    "a . b c"
+                    "d . e f"
+                    ". g h i"
+                    "j j j j";
+}
+div{
+    height: 100px;
+}
+
+#one{
+    background-color: red;
+    grid-area: a;
+    height: 200px;
+}
+#two{
+    background-color: green;
+    grid-area: b;
+}
+#three{
+    background-color: blue;
+    grid-area: c;
+}
+#four{
+    background-color: blueviolet;
+    grid-area: d;
+}
+#five{
+    background-color: burlywood;
+    grid-area: e;
+}
+#six{
+    background-color: forestgreen;
+    grid-area: f;
+}
+#seven{
+    background-color: slateblue;
+    grid-area: g;
+    height: 200px;
+}
+#eight{
+    background-color: blanchedalmond;
+    grid-area: h;
+}
+#nine{
+    background-color: hotpink;
+    grid-area: i;
+}
+#ten{
+    background-color: mediumvioletred;
+    grid-area: j;
+}

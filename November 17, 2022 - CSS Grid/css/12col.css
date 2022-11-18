@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    grid-template:  "header header header header header header header header header header header "
+                    "side side bod bod bod bod  bod  bod  bod  bod  bod  bod"
+                    "foot foot foot foot foot foot foot foot foot foot foot foot";
+    grid-template-columns: repeat(12, 1fr);
+    background-color: red;
+}
+
+#logo {
+    grid-area: logo;
+    background-color: yellow; 
+}
+
+#navigation {
+    background-color: yellowgreen;
+    grid-area: navi;
+}
+
+#sidebar {
+    background-color: darkolivegreen;
+    grid-area: side;
+}
+
+#main {
+    background-color: green;
+    grid-area: bod;
+}
+
+#footer {
+    background-color: darkgreen;
+    grid-area: foot;
+}

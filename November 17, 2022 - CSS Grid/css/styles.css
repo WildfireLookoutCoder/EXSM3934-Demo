@@ -1,0 +1,96 @@
+#logo {
+    background-color: yellow;
+}
+
+#navigation {
+    background-color: yellowgreen;
+}
+
+#sidebar {
+    background-color: darkolivegreen;
+}
+
+#main {
+    background-color: green;
+}
+
+#footer {
+    background-color: darkgreen;
+}
+
+
+/* --------------------------------------------------- */
+
+
+
+@media screen and (min-width: 600px) {
+
+    body {
+        display: grid;
+        /* grid-template-columns: repeat( 3, 1fr ); */
+        grid-template-columns: 1fr 1fr 4fr;
+        gap: 0;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    #logo {
+        background-color: yellow;
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+
+    #navigation {
+        background-color: yellowgreen;
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    #sidebar {
+        background-color: darkolivegreen;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #main {
+        background-color: green;
+        grid-column: 2 / span 2;
+        grid-row: 2;
+    }
+
+    #footer {
+        background-color: darkgreen;
+        grid-column: 1 / span 3;
+        grid-row: 3;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        grid-template: "navi logo logo"
+            "bod bod side "
+            "foot foot foot";
+        grid-template-columns: 1fr 1fr 800px;
+    }
+
+
+    #logo {
+        grid-area: logo;
+    }
+
+    #navigation {
+        grid-area: navi;
+    }
+
+    #sidebar {
+        grid-area: side;
+    }
+
+    #main {
+        grid-area: bod;
+    }
+
+    #footer {
+        grid-area: foot;
+    }
+}
