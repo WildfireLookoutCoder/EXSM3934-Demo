@@ -1,0 +1,52 @@
+body{
+    display: grid;
+    grid-template-areas: "header header header"
+                        "aside main main"
+                        "footer footer footer";
+}
+
+header{
+    grid-area: header;
+    background-color: lightblue;
+}
+
+aside{
+    grid-area: aside;
+    background-color: blue;
+}
+
+main{
+    grid-area: main;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+footer{
+    grid-area: footer;
+    background-color: darkblue;
+}
+
+article{
+    display: grid;
+    grid-template-areas: "image headline"
+                        "image byline"
+                        "image content";
+    height: 200px;
+    overflow-y: scroll;
+}
+h2{
+    color: green;
+}
+article h2{
+    grid-area: headline;
+    color: red;
+}
+article h3{
+    grid-area: byline;
+}
+article img{
+    grid-area: image;
+}
+article p{
+    grid-area: content;
+}
