@@ -1,0 +1,32 @@
+main {
+    display: grid;
+    grid-template: "one two"
+        "three four";
+}
+img{
+    width: 50%;
+    
+    float: left;
+}
+ section p{
+    width: 50%;
+    float: left;
+ }
+ h2{
+    clear: both;
+ }
+
+#one{
+    grid-area: one;
+   
+}
+#two{
+    grid-area: two;
+}
+#three{
+    grid-area: three;
+}
+#four{
+    grid-area: four;
+}
+
